@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="container">
+  <h3>Welcome @User.FindFirst("email")!</h3>
+    <h4>User claims:</h4>
+    <dl>
+        @foreach (var claim in User.Claims)
+        {
+            <dt>@claim.Type</dt>
+            <dd>@claim.Value</dd>
+        }
+    </dl>
+</div>
