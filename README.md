@@ -10,7 +10,7 @@
     Simple ASP.NET Core 6.0 project demonstrates basic authentication flows with PlusAuth
     <br />
     <br />
-    <a href="https://github.com/PlusAuth/plusauth-spring-backend-starter"><strong>Explore the PlusAuth ASP.NET Core 6.0 docs »</strong></a>
+    <a href=""><strong>Explore the PlusAuth ASP.NET Core 6.0 docs »</strong></a>
 </p>
 
 <details>
@@ -63,7 +63,7 @@ This project is licensed under the MIT license. See the [LICENSE](LICENSE) file 
 
 PlusAuth helps to individuals, team and organizations for implementing authorization and authentication system in a secure, flexible and easy way.
 
-<a href="https://plusauth.com/"><strong>Explore the PlusAuth WebSite »</strong></a>
+<a href="https://plusauth.com/"><strong>Explore the PlusAuth Website »</strong></a>
 
 <a href="https://docs.plusauth.com/"><strong>Explore the PlusAuth Docs »</strong></a>
 
