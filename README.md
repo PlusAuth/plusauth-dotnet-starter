@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://plusauth.com/">
-    <img src="" alt="Logo" width="80" height="80">
+    <img src="wwwroot/pa-white.svg" alt="Logo" width="320" height="72" >
   </a>
 </div>
 
@@ -10,7 +10,7 @@
     Simple ASP.NET Core 6.0 project demonstrates basic authentication flows with PlusAuth
     <br />
     <br />
-    <a href=""><strong>Explore the PlusAuth ASP.NET Core 6.0 docs »</strong></a>
+    <a href="" target="_blank"><strong>Explore the PlusAuth ASP.NET Core 6.0 docs »</strong></a>
 </p>
 
 <details>
@@ -63,8 +63,8 @@ This project is licensed under the MIT license. See the [LICENSE](LICENSE) file 
 
 PlusAuth helps to individuals, team and organizations for implementing authorization and authentication system in a secure, flexible and easy way.
 
-<a href="https://plusauth.com/"><strong>Explore the PlusAuth Website »</strong></a>
+<a href="https://plusauth.com/" target="_blank"><strong>Explore the PlusAuth Website »</strong></a>
 
-<a href="https://docs.plusauth.com/"><strong>Explore the PlusAuth Docs »</strong></a>
+<a href="https://docs.plusauth.com/" target="_blank"><strong>Explore the PlusAuth Docs »</strong></a>
 
-<a href="https://forum.plusauth.com/"><strong>Explore the PlusAuth Forum »</strong></a>
+<a href="https://forum.plusauth.com/" target="_blank"><strong>Explore the PlusAuth Forum »</strong></a>
