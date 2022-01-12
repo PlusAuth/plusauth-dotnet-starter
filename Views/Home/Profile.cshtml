@@ -1,15 +1,17 @@
 ﻿@{
-    ViewData["Title"] = "Profile";
+  ViewData["Title"] = "Profile";
 }
 
 <div class="container">
-  <h3>Welcome @User.FindFirst("email")!</h3>
-    <h4>User claims:</h4>
-    <dl>
-        @foreach (var claim in User.Claims)
-        {
-            <dt>@claim.Type</dt>
-            <dd>@claim.Value</dd>
-        }
-    </dl>
+  <h3>Welcome @User.FindFirst("username").Value!</h3>
+  <h4>User claims:</h4>
+  <table style="max-width: 600px">
+    @foreach (var claim in User.Claims)
+    {
+      <tr>
+        <td style="padding: 8px">@claim.Type</td>
+        <td style="padding: 8px">@claim.Value</td>
+      </tr>
+    }
+  </table>
 </div>

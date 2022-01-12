@@ -1,24 +1,16 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@{ ViewData["Title"] = "Home Page"; }
 
 <div class="jumbotron">
-  <div class="container">
-    <h1 class="display-3">Hello, world!</h1>
-    <p>
-      This is a template for a simple login/register system. It includes a
-      simple OpenID Connect Implicit Flow. To view Profile page please login.
-    </p>
-    <p>
-      
-       @if(User.Identity.IsAuthenticated) { 
-      <a class="btn btn-success btn-lg" href="/profile" role="button"
-        >View Profile &raquo;</a>
-       }else { 
-      <a class="btn btn-primary btn-lg" href="/login" role="button"
-        >Login/Register &raquo;</a>
-       } 
-    </p>
-    <p></p>
-  </div>
+	<div class="container">
+		<h1 class="display-3">Hello, world!</h1>
+		<p>This is a template for a simple login/register system. It includes a simple OpenID Connect Implicit Flow. To view Profile page please login.</p>
+		<p>
+			@if (User.Identity != null && User.Identity.IsAuthenticated) {
+			<a class="btn btn-success btn-lg" asp-controller="Home" asp-action="Profile" role="button">View Profile &raquo;</a>
+			} else {
+			<a class="btn btn-primary btn-lg" asp-controller="Account" asp-action="Login" role="button">Login/Register &raquo;</a>
+			}
+		</p>
+		<p></p>
+	</div>
 </div>

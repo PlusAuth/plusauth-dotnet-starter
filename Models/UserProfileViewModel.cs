@@ -1,0 +1,8 @@
+namespace plusauth_dotnet6mvc_starter.Models;
+
+public class UserProfileViewModel
+{
+  public string? Name { get; set; }
+
+  public string? EmailAddress { get; set; }
+}
