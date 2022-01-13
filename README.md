@@ -10,7 +10,7 @@
     Simple ASP.NET Core 6.0 project demonstrates basic authentication flows with PlusAuth
     <br />
     <br />
-    <a href="" target="_blank"><strong>Explore the PlusAuth ASP.NET Core 6.0 docs »</strong></a>
+    <a href="https://docs.plusauth.com/quickStart/web/dotnet-core" target="_blank"><strong>Explore the PlusAuth ASP.NET Core 6.0 docs »</strong></a>
 </p>
 
 <details>
